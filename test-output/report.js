@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4187004345,
+  "duration": 3776062759,
   "status": "passed"
 });
 formatter.scenario({
@@ -67,49 +67,49 @@ formatter.match({
   "location": "AddCustomerSteps.im_on_nopCommerce_homepage()"
 });
 formatter.result({
-  "duration": 4370541524,
+  "duration": 4605713849,
   "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.i_click_on_customer_menu()"
 });
 formatter.result({
-  "duration": 200546776,
+  "duration": 221326501,
   "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.click_on_add_customer_sub_menu_button()"
 });
 formatter.result({
-  "duration": 1231453032,
+  "duration": 1971560397,
   "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.click_on_Add_new_button()"
 });
 formatter.result({
-  "duration": 986703149,
+  "duration": 1205494525,
   "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.i_can_view_Add_a_new_customer_page()"
 });
 formatter.result({
-  "duration": 33284906,
+  "duration": 19574547,
   "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.i_enter_customer_information()"
 });
 formatter.result({
-  "duration": 737733514,
+  "duration": 765110399,
   "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.click_on_save_button()"
 });
 formatter.result({
-  "duration": 1695375377,
+  "duration": 2290693152,
   "status": "passed"
 });
 formatter.match({
@@ -122,14 +122,14 @@ formatter.match({
   "location": "AddCustomerSteps.i_should_get_a_confirmation_message(String)"
 });
 formatter.result({
-  "duration": 131919237,
-  "error_message": "java.lang.AssertionError: \nExpected: a string containing \"The new customer has been added successfully.\"\n     but: was \"  John Smith\nLogout\nDashboard\nCatalog\nSales\nCustomers\nCustomers\nCustomer roles\nOnline customers\nVendors\nActivity log\nActivity Types\nGDPR requests (log)\nPromotions\nContent management\nConfiguration\nSystem\nReports\nHelp\nAdd a new customer back to customer list\nSave\nSave and Continue Edit\nEmail is already registered\nCustomer info\nEmail\nPassword\nFirst name\nLast name\nGender\nMale\nFemale\nDate of birth\nCompany name\nIs tax exempt\nNewsletter\nCustomer roles\nRegistered\n*\nManager of vendor\nNot a vendor\nVendor 1\nVendor 2\nNote: if you have a vendor associated with this customer, then also ensure it is in \"Vendors\" customer role.\nActive\nAdmin comment\nPowered by nopCommerce\nnopCommerce version 4.30\nThursday, January 14, 2021 10:09 AM\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat org.nopCommerce.step_definitions.AddCustomerSteps.i_should_get_a_confirmation_message(AddCustomerSteps.java:84)\n\tat ✽.Then I should get a confirmation message \"The new customer has been added successfully.\"(src/test/resources/AddCustomer.feature:14)\n",
-  "status": "failed"
+  "duration": 139913565,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddCustomerSteps.close_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 112534939,
+  "status": "passed"
 });
 });

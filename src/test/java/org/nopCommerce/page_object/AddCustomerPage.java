@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import utilities.RandomString;
+import utilities.WaitHelper;
 
 import javax.xml.crypto.dom.DOMCryptoContext;
 import java.nio.ByteBuffer;
@@ -12,6 +14,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class AddCustomerPage extends DriverManager {
+
+
 
     @FindBy(xpath = "//li[@class='treeview']")
     List<WebElement> MainMenuOptions;
@@ -31,6 +35,7 @@ public class AddCustomerPage extends DriverManager {
     // @FindBy(xpath = "//span[@class= 'menu-item-title']")
     @FindBy(xpath = "//a[@class= 'menu-item-link']")
     List<WebElement> SubMenuOptions;
+
 
     public void SelectSubOption(String SubOptionName) {
         for (WebElement SubOption : SubMenuOptions) {
@@ -94,10 +99,22 @@ public class AddCustomerPage extends DriverManager {
     //  Action Methods:
 
     public void ClickAddNewCustomer() {
+
+
+      /* Note: Created WaitHelper class in Utilities package
+      we can call waitForElement() method either as below
+      new WaitHelper().waitForElement(AddNewCustomerBtn, 10);
+                    or by initialization
+       */
+
+        WaitHelper wait = new WaitHelper();
+        wait.waitForElement(AddNewCustomerBtn, 10);
         AddNewCustomerBtn.click();
     }
 
-    public void enterEmail(String email) {
+
+    // Note: Created RandomString class in Utilities package
+    public void enterEmail( String email ) {
         EmailTxtBox.sendKeys(email);
     }
 

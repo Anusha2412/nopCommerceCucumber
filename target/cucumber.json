@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4187004345,
+              "duration": 3776062759,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4370541524,
+              "duration": 4605713849,
               "status": "passed"
             },
             "line": 7,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 200546776,
+              "duration": 221326501,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1231453032,
+              "duration": 1971560397,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 986703149,
+              "duration": 1205494525,
               "status": "passed"
             },
             "line": 10,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 33284906,
+              "duration": 19574547,
               "status": "passed"
             },
             "line": 11,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 737733514,
+              "duration": 765110399,
               "status": "passed"
             },
             "line": 12,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 1695375377,
+              "duration": 2290693152,
               "status": "passed"
             },
             "line": 13,
@@ -107,9 +107,8 @@
           },
           {
             "result": {
-              "duration": 131919237,
-              "error_message": "java.lang.AssertionError: \nExpected: a string containing \"The new customer has been added successfully.\"\n     but: was \"  John Smith\nLogout\nDashboard\nCatalog\nSales\nCustomers\nCustomers\nCustomer roles\nOnline customers\nVendors\nActivity log\nActivity Types\nGDPR requests (log)\nPromotions\nContent management\nConfiguration\nSystem\nReports\nHelp\nAdd a new customer back to customer list\nSave\nSave and Continue Edit\nEmail is already registered\nCustomer info\nEmail\nPassword\nFirst name\nLast name\nGender\nMale\nFemale\nDate of birth\nCompany name\nIs tax exempt\nNewsletter\nCustomer roles\nRegistered\n*\nManager of vendor\nNot a vendor\nVendor 1\nVendor 2\nNote: if you have a vendor associated with this customer, then also ensure it is in \"Vendors\" customer role.\nActive\nAdmin comment\nPowered by nopCommerce\nnopCommerce version 4.30\nThursday, January 14, 2021 10:09 AM\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat org.nopCommerce.step_definitions.AddCustomerSteps.i_should_get_a_confirmation_message(AddCustomerSteps.java:84)\n\tat ✽.Then I should get a confirmation message \"The new customer has been added successfully.\"(src/test/resources/AddCustomer.feature:14)\n",
-              "status": "failed"
+              "duration": 139913565,
+              "status": "passed"
             },
             "line": 14,
             "name": "I should get a confirmation message \"The new customer has been added successfully.\"",
@@ -126,7 +125,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112534939,
+              "status": "passed"
             },
             "line": 15,
             "name": "Close browser",

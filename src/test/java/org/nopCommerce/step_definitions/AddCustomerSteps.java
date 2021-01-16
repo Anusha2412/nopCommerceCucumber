@@ -4,6 +4,7 @@ import cucumber.api.java.en.*;
 import org.nopCommerce.drivers.DriverManager;
 import org.nopCommerce.page_object.AddCustomerPage;
 import org.nopCommerce.page_object.LoginPage;
+import utilities.RandomString;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
@@ -20,7 +21,7 @@ public class AddCustomerSteps {
 
         String actual = lp.getCurrentUrl();
         assertThat(actual, endsWith("admin/"));
-        acp.applyImplicitWait();
+
 
     }
 
@@ -28,7 +29,7 @@ public class AddCustomerSteps {
     @When("^I click on customer menu$")
     public void i_click_on_customer_menu()  {
         acp.SelectMenuOption("Customers");
-        acp.applyImplicitWait();
+      //  acp.applyImplicitWait();
 
 
     }
@@ -58,7 +59,11 @@ public class AddCustomerSteps {
     @When("^I enter customer information$")
     public void i_enter_customer_information()  {
 
-        acp.enterEmail("anu.asuri@gnail.com");
+        /* Note: Created RandomString class in Utilities package, instead of hard coding email address,
+         we generate random email address as below
+         */
+        String email = new RandomString().randomStringGenerator()+ "@gmail.com";
+        acp.enterEmail(email);
         acp.enterPassword("Shaanu");
         acp.enterFirstName("Anusha");
         acp.enterLastName("Asuri");
@@ -90,6 +95,5 @@ public class AddCustomerSteps {
     lp.closeBrowser();
 
     }
-
 
 }

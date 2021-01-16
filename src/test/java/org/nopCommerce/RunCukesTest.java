@@ -11,8 +11,10 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json", "pretty", "html:test-output"}
 
 
-
 )
   public class RunCukesTest {
 
 }
+
+
+// For html reports : go to test-output package---->index.html----->right click-----> Open in Browser----->Default
