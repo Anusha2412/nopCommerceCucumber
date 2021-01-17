@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3776062759,
+              "duration": 4780600938,
               "status": "passed"
             },
             "match": {
@@ -23,91 +23,91 @@
         "steps": [
           {
             "result": {
-              "duration": 4605713849,
+              "duration": 4081049338,
               "status": "passed"
             },
             "line": 7,
             "name": "Im on nopCommerce homepage",
             "match": {
-              "location": "AddCustomerSteps.im_on_nopCommerce_homepage()"
+              "location": "CustomerSteps.im_on_nopCommerce_homepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 221326501,
+              "duration": 224108596,
               "status": "passed"
             },
             "line": 8,
             "name": "I click on customer menu",
             "match": {
-              "location": "AddCustomerSteps.i_click_on_customer_menu()"
+              "location": "CustomerSteps.i_click_on_customer_menu()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1971560397,
+              "duration": 2418267047,
               "status": "passed"
             },
             "line": 9,
             "name": "click on add customer sub menu button",
             "match": {
-              "location": "AddCustomerSteps.click_on_add_customer_sub_menu_button()"
+              "location": "CustomerSteps.click_on_add_customer_sub_menu_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1205494525,
+              "duration": 3727507493,
               "status": "passed"
             },
             "line": 10,
             "name": "click on Add new button",
             "match": {
-              "location": "AddCustomerSteps.click_on_Add_new_button()"
+              "location": "CustomerSteps.click_on_Add_new_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 19574547,
+              "duration": 18610531,
               "status": "passed"
             },
             "line": 11,
             "name": "I can view Add a new customer page",
             "match": {
-              "location": "AddCustomerSteps.i_can_view_Add_a_new_customer_page()"
+              "location": "CustomerSteps.i_can_view_Add_a_new_customer_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 765110399,
+              "duration": 716896218,
               "status": "passed"
             },
             "line": 12,
             "name": "I enter customer information",
             "match": {
-              "location": "AddCustomerSteps.i_enter_customer_information()"
+              "location": "CustomerSteps.i_enter_customer_information()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2290693152,
+              "duration": 2076087193,
               "status": "passed"
             },
             "line": 13,
             "name": "click on save button",
             "match": {
-              "location": "AddCustomerSteps.click_on_save_button()"
+              "location": "CustomerSteps.click_on_save_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 139913565,
+              "duration": 136537260,
               "status": "passed"
             },
             "line": 14,
@@ -119,19 +119,229 @@
                   "offset": 37
                 }
               ],
-              "location": "AddCustomerSteps.i_should_get_a_confirmation_message(String)"
+              "location": "CustomerSteps.i_should_get_a_confirmation_message(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 112534939,
+              "duration": 122991641,
               "status": "passed"
             },
             "line": 15,
             "name": "Close browser",
             "match": {
-              "location": "AddCustomerSteps.close_browser()"
+              "location": "CustomerSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2939965804,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4155721003,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Im on nopCommerce homepage",
+            "match": {
+              "location": "CustomerSteps.im_on_nopCommerce_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186034822,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on customer menu",
+            "match": {
+              "location": "CustomerSteps.i_click_on_customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1878031943,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on add customer sub menu button",
+            "match": {
+              "location": "CustomerSteps.click_on_add_customer_sub_menu_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202774657,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter an email address",
+            "match": {
+              "location": "CustomerSteps.i_enter_an_email_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90076663,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on search button",
+            "match": {
+              "location": "CustomerSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355206593,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should be able to see the search results matching the email address entered",
+            "match": {
+              "location": "CustomerSteps.i_should_be_able_to_see_the_search_results_matching_the_email_address_entered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158751179,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "close browser",
+            "match": {
+              "location": "LoginSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2545499431,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4480943565,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Im on nopCommerce homepage",
+            "match": {
+              "location": "CustomerSteps.im_on_nopCommerce_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201566699,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on customer menu",
+            "match": {
+              "location": "CustomerSteps.i_click_on_customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1239435407,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on add customer sub menu button",
+            "match": {
+              "location": "CustomerSteps.click_on_add_customer_sub_menu_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222581848,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter FirstName and LastName",
+            "match": {
+              "location": "CustomerSteps.i_enter_FirstName_and_LastName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 177300205,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on search button",
+            "match": {
+              "location": "CustomerSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 400014249,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should be able to see the search results matching the name entered",
+            "match": {
+              "location": "CustomerSteps.i_should_be_able_to_see_the_search_results_matching_the_name_address_entered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153928096,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "close browser",
+            "match": {
+              "location": "LoginSteps.close_browser()"
             },
             "keyword": "And "
           }
@@ -142,6 +352,6 @@
     "description": "As a end User\nI want to add a new customer\nSo that I can check that the add customer menu is working correctly",
     "id": "",
     "keyword": "Feature",
-    "uri": "src/test/resources/AddCustomer.feature"
+    "uri": "src/test/resources/Customer.feature"
   }
 ]

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/AddCustomer.feature",
+        features = "src/test/resources/Customer.feature",
         dryRun = false,
         plugin = {"json:target/cucumber.json", "pretty", "html:test-output"}
 
