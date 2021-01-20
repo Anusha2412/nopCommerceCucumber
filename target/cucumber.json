@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4780600938,
+              "duration": 4874712893,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4081049338,
+              "duration": 4517163694,
               "status": "passed"
             },
             "line": 7,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 224108596,
+              "duration": 233733723,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2418267047,
+              "duration": 1846242028,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 3727507493,
+              "duration": 1111444080,
               "status": "passed"
             },
             "line": 10,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 18610531,
+              "duration": 19250500,
               "status": "passed"
             },
             "line": 11,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 716896218,
+              "duration": 746722221,
               "status": "passed"
             },
             "line": 12,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 2076087193,
+              "duration": 1469660388,
               "status": "passed"
             },
             "line": 13,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 136537260,
+              "duration": 144171558,
               "status": "passed"
             },
             "line": 14,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 122991641,
+              "duration": 123105912,
               "status": "passed"
             },
             "line": 15,
@@ -141,7 +141,7 @@
         "before": [
           {
             "result": {
-              "duration": 2939965804,
+              "duration": 3337306146,
               "status": "passed"
             },
             "match": {
@@ -158,7 +158,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4155721003,
+              "duration": 4088140527,
               "status": "passed"
             },
             "line": 18,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 186034822,
+              "duration": 186059317,
               "status": "passed"
             },
             "line": 19,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 1878031943,
+              "duration": 2254490237,
               "status": "passed"
             },
             "line": 20,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 202774657,
+              "duration": 172517389,
               "status": "passed"
             },
             "line": 21,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 90076663,
+              "duration": 94035905,
               "status": "passed"
             },
             "line": 22,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 355206593,
+              "duration": 382534005,
               "status": "passed"
             },
             "line": 23,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 158751179,
+              "duration": 108404026,
               "status": "passed"
             },
             "line": 24,
@@ -246,7 +246,7 @@
         "before": [
           {
             "result": {
-              "duration": 2545499431,
+              "duration": 2490078301,
               "status": "passed"
             },
             "match": {
@@ -263,7 +263,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4480943565,
+              "duration": 3943862713,
               "status": "passed"
             },
             "line": 27,
@@ -275,7 +275,7 @@
           },
           {
             "result": {
-              "duration": 201566699,
+              "duration": 157393934,
               "status": "passed"
             },
             "line": 28,
@@ -287,7 +287,7 @@
           },
           {
             "result": {
-              "duration": 1239435407,
+              "duration": 1868048669,
               "status": "passed"
             },
             "line": 29,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 222581848,
+              "duration": 237080080,
               "status": "passed"
             },
             "line": 30,
@@ -311,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 177300205,
+              "duration": 159640768,
               "status": "passed"
             },
             "line": 31,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 400014249,
+              "duration": 315916479,
               "status": "passed"
             },
             "line": 32,
@@ -335,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 153928096,
+              "duration": 109414692,
               "status": "passed"
             },
             "line": 33,
@@ -352,6 +352,135 @@
     "description": "As a end User\nI want to add a new customer\nSo that I can check that the add customer menu is working correctly",
     "id": "",
     "keyword": "Feature",
-    "uri": "src/test/resources/Customer.feature"
+    "uri": "Customer.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2496820496,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "login;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7214575,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on sign in page",
+            "match": {
+              "location": "LoginSteps.user_is_on_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264624447,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginSteps.user_enters_Email_as_and_Password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4203193599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Login button",
+            "match": {
+              "location": "LoginSteps.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10240704,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should login into homepage",
+            "match": {
+              "location": "LoginSteps.user_should_login_into_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1955660570,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click log out link",
+            "match": {
+              "location": "LoginSteps.user_click_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11583041,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should log out of the home page",
+            "match": {
+              "location": "LoginSteps.user_should_log_out_of_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111343765,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close browser",
+            "match": {
+              "location": "LoginSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "As an end user\nI want to enter different Login credentials\nSo that I can see all the possible entries",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
   }
 ]

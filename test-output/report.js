@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Customer.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Customer.feature");
 formatter.feature({
   "line": 1,
   "name": "",
@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4780600938,
+  "duration": 4874712893,
   "status": "passed"
 });
 formatter.scenario({
@@ -67,49 +67,49 @@ formatter.match({
   "location": "CustomerSteps.im_on_nopCommerce_homepage()"
 });
 formatter.result({
-  "duration": 4081049338,
+  "duration": 4517163694,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_click_on_customer_menu()"
 });
 formatter.result({
-  "duration": 224108596,
+  "duration": 233733723,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_add_customer_sub_menu_button()"
 });
 formatter.result({
-  "duration": 2418267047,
+  "duration": 1846242028,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_Add_new_button()"
 });
 formatter.result({
-  "duration": 3727507493,
+  "duration": 1111444080,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_can_view_Add_a_new_customer_page()"
 });
 formatter.result({
-  "duration": 18610531,
+  "duration": 19250500,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_enter_customer_information()"
 });
 formatter.result({
-  "duration": 716896218,
+  "duration": 746722221,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_save_button()"
 });
 formatter.result({
-  "duration": 2076087193,
+  "duration": 1469660388,
   "status": "passed"
 });
 formatter.match({
@@ -122,18 +122,18 @@ formatter.match({
   "location": "CustomerSteps.i_should_get_a_confirmation_message(String)"
 });
 formatter.result({
-  "duration": 136537260,
+  "duration": 144171558,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.close_browser()"
 });
 formatter.result({
-  "duration": 122991641,
+  "duration": 123105912,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2939965804,
+  "duration": 3337306146,
   "status": "passed"
 });
 formatter.scenario({
@@ -183,53 +183,53 @@ formatter.match({
   "location": "CustomerSteps.im_on_nopCommerce_homepage()"
 });
 formatter.result({
-  "duration": 4155721003,
+  "duration": 4088140527,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_click_on_customer_menu()"
 });
 formatter.result({
-  "duration": 186034822,
+  "duration": 186059317,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_add_customer_sub_menu_button()"
 });
 formatter.result({
-  "duration": 1878031943,
+  "duration": 2254490237,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_enter_an_email_address()"
 });
 formatter.result({
-  "duration": 202774657,
+  "duration": 172517389,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_search_button()"
 });
 formatter.result({
-  "duration": 90076663,
+  "duration": 94035905,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_should_be_able_to_see_the_search_results_matching_the_email_address_entered()"
 });
 formatter.result({
-  "duration": 355206593,
+  "duration": 382534005,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.close_browser()"
 });
 formatter.result({
-  "duration": 158751179,
+  "duration": 108404026,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2545499431,
+  "duration": 2490078301,
   "status": "passed"
 });
 formatter.scenario({
@@ -279,49 +279,235 @@ formatter.match({
   "location": "CustomerSteps.im_on_nopCommerce_homepage()"
 });
 formatter.result({
-  "duration": 4480943565,
+  "duration": 3943862713,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_click_on_customer_menu()"
 });
 formatter.result({
-  "duration": 201566699,
+  "duration": 157393934,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_add_customer_sub_menu_button()"
 });
 formatter.result({
-  "duration": 1239435407,
+  "duration": 1868048669,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_enter_FirstName_and_LastName()"
 });
 formatter.result({
-  "duration": 222581848,
+  "duration": 237080080,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.click_on_search_button()"
 });
 formatter.result({
-  "duration": 177300205,
+  "duration": 159640768,
   "status": "passed"
 });
 formatter.match({
   "location": "CustomerSteps.i_should_be_able_to_see_the_search_results_matching_the_name_address_entered()"
 });
 formatter.result({
-  "duration": 400014249,
+  "duration": 315916479,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.close_browser()"
 });
 formatter.result({
-  "duration": 153928096,
+  "duration": 109414692,
+  "status": "passed"
+});
+formatter.uri("Login.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Login",
+  "description": "As an end user\nI want to enter different Login credentials\nSo that I can see all the possible entries",
+  "id": "login",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 7,
+  "name": "",
+  "description": "",
+  "id": "login;",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 8,
+  "name": "User is on sign in page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "User enters Email as \"\u003cemail\u003e\" and Password as \"\u003cpassword\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "Click on Login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User should login into homepage",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "User click log out link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "User should log out of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "close browser",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 15,
+  "name": "",
+  "description": "",
+  "id": "login;;",
+  "rows": [
+    {
+      "cells": [
+        "email",
+        "password"
+      ],
+      "line": 16,
+      "id": "login;;;1"
+    },
+    {
+      "cells": [
+        "admin@yourstore.com",
+        "admin"
+      ],
+      "line": 17,
+      "id": "login;;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 2496820496,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "",
+  "description": "",
+  "id": "login;;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 8,
+  "name": "User is on sign in page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "Click on Login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User should login into homepage",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "User click log out link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "User should log out of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "close browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.user_is_on_sign_in_page()"
+});
+formatter.result({
+  "duration": 7214575,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin@yourstore.com",
+      "offset": 22
+    },
+    {
+      "val": "admin",
+      "offset": 60
+    }
+  ],
+  "location": "LoginSteps.user_enters_Email_as_and_Password_as(String,String)"
+});
+formatter.result({
+  "duration": 264624447,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.click_on_Login_button()"
+});
+formatter.result({
+  "duration": 4203193599,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_should_login_into_homepage()"
+});
+formatter.result({
+  "duration": 10240704,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_click_log_out_link()"
+});
+formatter.result({
+  "duration": 1955660570,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_should_log_out_of_the_home_page()"
+});
+formatter.result({
+  "duration": 11583041,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.close_browser()"
+});
+formatter.result({
+  "duration": 111343765,
   "status": "passed"
 });
 });

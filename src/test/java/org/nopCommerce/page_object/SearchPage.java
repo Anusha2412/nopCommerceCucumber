@@ -10,6 +10,7 @@ import java.util.List;
 
 public class SearchPage extends DriverManager {
 
+    WaitHelper wait= new WaitHelper();
     //Finding Elements
 
     @FindBy(xpath = "//input[@id='SearchEmail']")
@@ -50,12 +51,13 @@ public class SearchPage extends DriverManager {
     }
 
     public void enterLName(String lname){
-        WaitHelper wait = new WaitHelper();
+
         wait.waitForElement(LNametxt, 10);
         LNametxt.sendKeys(lname);
     }
 
     public void clickSearchBtn(){
+        wait.waitForElement(SearchBtn, 10);
         SearchBtn.click();
     }
 
@@ -73,6 +75,7 @@ public class SearchPage extends DriverManager {
 
         for (int r=1; r<=noOfRows(); r++)
         {
+
             String emailID = Table.findElement(By.xpath("//table[@id='customers-grid']//tbody/tr[\"+r+\"]/td[2]")).getText();
             System.out.println(emailID);
 
