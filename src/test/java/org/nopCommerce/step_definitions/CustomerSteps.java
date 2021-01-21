@@ -2,10 +2,9 @@ package org.nopCommerce.step_definitions;
 
 import cucumber.api.java.en.*;
 import org.junit.Assert;
-import org.nopCommerce.drivers.DriverManager;
 import org.nopCommerce.page_object.AddCustomerPage;
 import org.nopCommerce.page_object.LoginPage;
-import org.nopCommerce.page_object.SearchPage;
+import org.nopCommerce.page_object.SearchCustomerPage;
 import utilities.RandomString;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -15,7 +14,7 @@ public class CustomerSteps {
 
     private AddCustomerPage acp = new AddCustomerPage();
     private LoginPage lp = new LoginPage();
-    private SearchPage sp = new SearchPage();
+    private SearchCustomerPage scp = new SearchCustomerPage();
 
 
 
@@ -96,19 +95,19 @@ public class CustomerSteps {
 
     @Then("^I enter an email address$")
     public void i_enter_an_email_address()  {
-        sp.enterEmail("victoria_victoria@nopCommerce.com");
+        scp.enterEmail("victoria_victoria@nopCommerce.com");
 
     }
 
     @Then("^click on search button$")
     public void click_on_search_button()  {
-        sp.clickSearchBtn();
+        scp.clickSearchBtn();
 
     }
 
     @Then("^I should be able to see the search results matching the email address entered$")
     public void i_should_be_able_to_see_the_search_results_matching_the_email_address_entered()  {
-        boolean status =sp.searchByEmailID("victoria_victoria@nopCommerce.com");
+        boolean status =scp.searchByEmailID("victoria_victoria@nopCommerce.com");
         Assert.assertTrue(status);
 
     }
@@ -116,15 +115,19 @@ public class CustomerSteps {
 
     @Then("^I enter FirstName and LastName$")
     public void i_enter_FirstName_and_LastName() {
-        sp.enterFName("Victoria");
+        scp.enterFName("Victoria");
+        scp.enterLName("Terces");
+        scp.implwait();
 
-        sp.enterLName("Terces");
 
     }
 
     @Then("^I should be able to see the search results matching the name entered$")
-    public void i_should_be_able_to_see_the_search_results_matching_the_name_address_entered()  {
-        boolean status2 = sp.searchByName("Victoria Terces");
+    public void i_should_be_able_to_see_the_search_results_matching_the_name_entered()  {
+        boolean status2 = scp.searchByName("Victoria Terces");
+        System.out.println(status2);
+        scp.implwait();
+
         Assert.assertTrue(status2);
 
     }

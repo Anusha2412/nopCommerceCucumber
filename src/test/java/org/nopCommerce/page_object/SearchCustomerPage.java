@@ -1,14 +1,18 @@
 package org.nopCommerce.page_object;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.nopCommerce.drivers.DriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utilities.WaitHelper;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
-public class SearchPage extends DriverManager {
+public class SearchCustomerPage extends DriverManager {
+
 
     WaitHelper wait= new WaitHelper();
     //Finding Elements
@@ -71,10 +75,12 @@ public class SearchPage extends DriverManager {
 
     public boolean searchByEmailID(String email)
     {
+
         boolean flag = false;
 
         for (int r=1; r<=noOfRows(); r++)
         {
+
 
             String emailID = Table.findElement(By.xpath("//table[@id='customers-grid']//tbody/tr[\"+r+\"]/td[2]")).getText();
             System.out.println(emailID);
@@ -95,9 +101,11 @@ public class SearchPage extends DriverManager {
 
         for (int r=1; r<= noOfRows(); r++)
         {
+
             String name = Table.findElement(By.xpath("//table[@id='customers-grid']//tbody/tr[\"+r+\"]/td[3]")).getText();
 
            String names[]=  name.split(" ");
+
 
            if(names[0].equals("Victoria") && names[1].equals("Terces"))
            {
@@ -106,6 +114,10 @@ public class SearchPage extends DriverManager {
            }
         }
         return flag;
+    }
+    public void  implwait(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
 
